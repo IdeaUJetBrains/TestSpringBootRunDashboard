@@ -1,0 +1,12 @@
+spring:
+   profiles: production
+name: productionName
+env: productionYML
+servers:
+        - productionServer1
+        - productionServer2
+        - productionServer3
+other:
+        - productionInfo1
+        - productionInfo2
+        - productionInfo3
